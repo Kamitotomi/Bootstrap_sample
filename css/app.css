@@ -1,0 +1,15 @@
+.col-4 {
+	background-color: green;
+}
+
+.col-sm {
+	background-color: green;
+}
+
+.col-sm-8 {
+	background-color: red;
+}
+
+.col-sm-4 {
+	background-color: red;
+}
