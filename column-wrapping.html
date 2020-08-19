@@ -5,29 +5,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="css/app.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<title>Bootstrap sample</title>
+	<title>折り返し</title>
 </head>
 <body>
-
-	<h3>複数クラスを組み合わせる</h3>
-
 	<div class="container">
 		<div class="row">
-			<div class="col-6 col-md-4">col-6&col-md-4</div>
-			<div class="col-6 col-md-4">col-6&col-md-4</div>
-			<div class="col-6 col-md-4">col-6&col-md-4</div>
-			
-		</div>
-		
-	</div>
+			 <div class="col-9">col-9</div>
+			 <div class="col-4">col-4<br>
+			 12列を超えると折り返される
+			</div>
 
-	<div class="container">
-		<div class="row">
-			<div class="col-12 col-md-8">col-12&col-md-8</div>
-			<div class="col-6 col-md-4">col-6&col-md-4</div>
-			
+			<div class="col-6">col-6<br>
+				col-4はそのまま折り返されるのでここは4 + 6 = 10になっている
+			</div>
 		</div>
-		
 	</div>
 <script src="js/app.js"></script>
 <script src="js/jquery.min.js"></script>
