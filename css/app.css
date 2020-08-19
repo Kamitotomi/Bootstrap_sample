@@ -1,20 +1,28 @@
-.col-9 {
+.col-8 {
 	background-color: purple;
 }
 .col-4 {
 	background-color: green;
 }
 
-.col-6 {
+.col-md-6 {
+	background-color: #1b7890;
+}
+
+.offset-md-4 {
 	background-color: #3c46;
 }
 
-.col-sm-8 {
+.col-sm-9 {
 	background-color: red;
 }
 
-.col-sm-4 {
-	background-color: red;
+.col-sm-3 {
+	background-color: yellow;
+}
+
+.offset-md-0 {
+	background-color: #4a7890;
 }
 
 .no-gutters {
