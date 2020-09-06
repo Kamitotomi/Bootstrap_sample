@@ -44,3 +44,8 @@ p {
 	margin: 100px;
 	padding: 0 100px 0 100px;
 }
+
+img {
+	width: 150px;
+	margin: 30px;
+}
