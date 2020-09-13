@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/app.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<title>ナビゲーション</title>
+</head>
+
+<body>
+
+	<h3>ulにナビゲーションを追加</h3>
+	<!-- 要するにここいじれば色々できまっせってことです -->
+	<!-- <ul class="nav flex-column"> -->
+		<!-- <li class="nav-item"><a class="nav-link" href="#">リンク</a></li> -->
+		<!-- <li class="nav-item"><a class="nav-link active" href="#">アクティブ</a></li> -->
+		<!-- <li class="nav-item"><a class="nav-link disabled" href="#">無効</a></li> -->
+	<!-- </ul> -->
+
+	<!-- レスポンシブ対応 -->
+	<!-- <nav class="nav nav-pills flex-column flex-sm-row"> -->
+		<!-- <a class="flex-sm-fills text-sm-center nav-link active" href="#">アクティブ</a> -->
+		<!-- <a class="flex-sm-fills text-sm-center nav-link" href="#">リンク</a> -->
+		<!-- <a class="flex-sm-fills text-sm-center nav-link disabled" href="#">知らん</a> -->
+	<!-- </nav> -->
+
+	<!-- ドロップダウン -->
+	<ul class="nav nav-tabs">
+	<!-- <ul class = "nav nav-pills"> -->
+		<li class="nav-item">
+			<a class="nav-link active" href="">active</a>
+		</li>
+		<li class="nav-item dropdown"> 
+			<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ドロップダウン</a>
+
+			<div class="dropdown-menu">
+				<a class="dropdown-item" href="#">リンク1</a>
+				<a class="dropdown-item" href="#">リンク2</a>
+				<a class="dropdown-item" href="#">リンク3</a>
+				<div class="dropdown-driver"></div>
+				<a class="dropdown-item" href="#">その他のリンク</a>
+			</div>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">リンク</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link disabled" href="">無効</a>
+		</li>
+	</ul>
+
+<script src="js/app.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
