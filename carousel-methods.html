@@ -7,8 +7,11 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<title>サブコンポーネント</title>
 </head>
+
 <body style="padding-top: 100px">
-	
+	<header>
+		<h1 class="text-center">header</h1>
+	</header>
 		<!-- ナビゲーション -->
 	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
 		<div class="container">
@@ -47,9 +50,9 @@
 
 	
 	<div class="container">	
-		<!-- カルーセル（data-pause="auto"でhoverしてても動きました） -->
+		<!-- カルーセル  -->
 
-		<div class="carousel slide" data-ride="carousel" data-pause="auto">
+		<div id="carouselExample" class="carousel slide">
 			<div class="carousel-innner">
 				<!-- First Slide -->
 				<div class="carousel-item active">
@@ -66,13 +69,16 @@
 			</div>
 		</div>
 
+		
 	</div>
 		
 
 
 
-	<script src="js/app.js"></script>
+
+	<!-- 記載順番注意！一番上にjqueryじゃないとコード書けない！ -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
