@@ -2,3 +2,4 @@ $(function () {
 	// body...
 	$('#carouselExample').carousel();
 });
+
